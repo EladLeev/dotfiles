@@ -64,7 +64,7 @@ git_commit_push_ticket() {
 
 source <(kubectl completion zsh)
 
-## oh-my-posh ##
+## oh-my-posh
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
     eval "$(oh-my-posh init zsh --config /Users/eladleev/theme.omp.json)"
 fi

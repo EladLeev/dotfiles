@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Start by updating brew
 brew update && brew upgrade
 
 # Kube
