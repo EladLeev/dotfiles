@@ -10,7 +10,9 @@ brew install \
     kubectx \
     helm \
     kubeseal \
-    derailed/k9s/k9s
+    derailed/k9s/k9s \
+    kustomize \
+    colima
 
 # Shell
 echo "Installing Shell tools..."
@@ -29,7 +31,8 @@ brew install \
     jq \
     grep \
     telnet \
-    wget
+    wget \
+    pre-commit
 
 # Kafka
 echo "Installing Kafka tools..."
