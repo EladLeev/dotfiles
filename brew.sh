@@ -3,6 +3,9 @@
 # Start by updating brew
 brew update && brew upgrade
 
+# Taps
+brew tap vladimirvivien/oss-tools
+
 # Kube
 echo "Installing Kube tools..."
 brew install \
@@ -13,6 +16,7 @@ brew install \
     derailed/k9s/k9s \
     kustomize \
     colima
+
 
 # Shell
 echo "Installing Shell tools..."
