@@ -14,6 +14,9 @@ brew install \
     kustomize \
     colima
 
+brew tap vladimirvivien/oss-tools
+brew install ktop
+
 # Shell
 echo "Installing Shell tools..."
 brew install \
