@@ -3,6 +3,9 @@
 # Start by updating brew
 brew update && brew upgrade
 
+# Taps
+brew tap vladimirvivien/oss-tools
+
 # Kube
 echo "Installing Kube tools..."
 brew install \
@@ -14,8 +17,6 @@ brew install \
     kustomize \
     colima
 
-brew tap vladimirvivien/oss-tools
-brew install ktop
 
 # Shell
 echo "Installing Shell tools..."
