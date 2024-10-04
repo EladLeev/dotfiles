@@ -4,7 +4,9 @@
 brew update && brew upgrade
 
 # Taps
-brew tap vladimirvivien/oss-tools
+brew tap \
+    vladimirvivien/oss-tools \
+    hashicorp/tap
 
 # Kube
 echo "Installing Kube tools..."
@@ -17,6 +19,13 @@ brew install \
     kustomize \
     colima
 
+# Terraform
+echo "Installing Terraform tools..."
+brew install \
+    warrensbox/tap/tfswitch \
+    hashicorp/tap/terraform \
+    terragrunt
+    
 
 # Shell
 echo "Installing Shell tools..."
