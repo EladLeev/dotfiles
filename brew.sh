@@ -24,8 +24,8 @@ echo "Installing Terraform tools..."
 brew install \
     warrensbox/tap/tfswitch \
     hashicorp/tap/terraform \
-    terragrunt
-    
+    terragrunt \
+    hclfmt
 
 # Shell
 echo "Installing Shell tools..."
@@ -45,15 +45,32 @@ brew install \
     grep \
     telnet \
     wget \
-    pre-commit
+    pre-commit \
+    mitmproxy
 
-# Kafka
+# Data
 echo "Installing Kafka tools..."
-brew install kcat
+brew install \
+    kcat \
+    duckdb
 
 # Python
 echo "Installing Python tools..."
-brew install pyenv
+brew install \
+    pyenv \
+    uv \
+    pipx
+
+# Java
+echo "Installing Java tools..."
+brew install \
+    gradle
+brew install --cask \
+    visualvm
+
+# Go
+echo "Installing Go tools..."
+brew install golangci-lint
 
 # Serialization
 echo "Installing Serialization formats..."
